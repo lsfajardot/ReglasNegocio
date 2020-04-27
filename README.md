@@ -1,24 +1,21 @@
-[**Universidad Distrital Francisco José de
-Caldas**]{lang="es-ES-u-co-trad"}
+**Universidad Distrital Francisco José de Caldas**
 
-[**Facultad de Ingeniería**]{lang="es-ES-u-co-trad"}
+**Facultad de Ingeniería**
 
-[**Especialización en Ingeniería de Software**]{lang="es-ES-u-co-trad"}
+**Especialización en Ingeniería de Software**
 
-[**Asignatura de Informática 1**]{lang="es-ES-u-co-trad"}
+**Asignatura de Informática 1**
 
-[**Docente: Alejandro Paolo Daza**]{lang="es-ES-u-co-trad"}
+**Docente: Alejandro Paolo Daza**
 
 ![](ReglasNegocio_html_670be77737dc3351.png){width="197" height="197"}
 
 \
 
-  ---------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------
-  **[Nombre: ]{lang="es-ES-u-co-trad"}**[[Angee Paola Ballesteros Maldonado]{style="font-weight: normal"}]{lang="es-ES-u-co-trad"}   **[Código: ]{lang="es-ES-u-co-trad"}**[[20201099027]{style="font-weight: normal"}]{lang="es-ES-u-co-trad"}
-  **[Nombre: ]{lang="es-ES-u-co-trad"}**[[Luigi Santiago Fajardo Toloza]{style="font-weight: normal"}]{lang="es-ES-u-co-trad"}       [**Código:**]{lang="es-ES-u-co-trad"}[ 20201099029]{lang="es-ES-u-co-trad"}
-  **[Nombre: ]{lang="es-ES-u-co-trad"}**[[Jeisson Jair Ariza Pulido]{style="font-weight: normal"}]{lang="es-ES-u-co-trad"}           [**Código:** ]{lang="es-ES-u-co-trad"}[20201099026]{lang="es-ES-u-co-trad"}
-  ---------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------
-
+| **Nombre: Angee Paola Ballesteros Maldonado** | **Código: 20201099027** |
+| --- | --- |
+| **Nombre: Luigi Santiago Fajardo Toloza** | **Código:** 20201099029 |
+| **Nombre: Jeisson Jair Ariza Pulido** | **Código:** 20201099026 |
 \
 
 [**Diseño de un aplicativo para notas de una asignatura basado en reglas
