@@ -72,17 +72,38 @@ Ahora se procede a crear la clasificación de los estudiantes basados en la regl
 
 Ahora se procede a crear las reglas basadas en la nota obtenida y las fallas de cada estudiante, para dicho calculo de la nota definitiva se combinan las reglas definidas en los procesos anteriormente mostrados.
 
-![](ReglasNegocio_html_7e13a8176d097a52.png){width="450" height="245"}
+![](ReglasNegocio_html_7e13a8176d097a52.png)
 
 **Figura [5]: Reglas de nota definitiva.**
 
 Luego de crear las reglas del aplicativo se procede a crear el aplicativo que va a implementar dichas reglas, el código es el siguiente:
 
 ![](ReglasNegocio_html_6651eb36a1da8700.png)
-
 ![](ReglasNegocio_html_397a824d109a770.png)
-
 ![](ReglasNegocio_html_3c02a64d55ecace9.png)
-
 ![](ReglasNegocio_html_d217850db33698b.png)
 ![](ReglasNegocio_html_98f94ea8602185bb.png)
+
+**Rule Engine/Motor de Reglas**
+
+La lógica, o reglas en nuestro caso, son piezas de conocimiento que a menudo se expresan como: \"Cuando algunas condiciones se evalúan como verdaderas, entonces realice algunas tareas\". Una regla difiere de un proceso principalmente porque los procesos comerciales representan lo que hace el negocio y las reglas de negocio representan decisiones que el negocio hace. Un motor de reglas puede verse como un sofisticado intérprete de sentencias if / then. Las declaraciones if / then que se interpretan se denominan reglas.
+
+Las entradas a un motor de reglas son un conjunto de ejecución de reglas y algunos objetos de datos. Las salidas de un motor de reglas están determinadas por las entradas y pueden incluir los objetos de datos de entrada originales con posibles modificaciones, nuevos objetos de datos y efectos secundarios como mensajes de salida enviados a un usuario especifico. De esta manera, los archivos de reglas están basados en dos conceptos básicos:
+
+-   Reglas: declaraciones declarativas que rigen la conducta de los procesos comerciales. Una regla consiste en una condición y acciones. La condición se evalúa y, si se evalúa como verdadera, el motor de reglas inicia una o más acciones.
+
+-   Hechos: son los datos sobre los cuales operan las reglas. En nuestro ejemplo, el dinero disponible son hechos.
+
+Las ventajas de usar motores de reglas son las siguientes:
+
+1.  Mayor flexibilidad: mantener sus reglas en una base de conocimiento le permite adaptar fácilmente sus decisiones cuando están cambiando.
+
+2.  Más fácil de entender: las reglas son más fáciles de entender que el código de procedimiento, por lo que pueden usarse de manera efectiva para cerrar la brecha entre el analista de negocios y los desarrolladores.
+
+3.  Complejidad reducida: al incorporar muchos puntos de decisión a sus códigos de procedimiento, puede convertir fácilmente su aplicación en una pesadilla. Por otro lado, las reglas pueden manejar una complejidad creciente mucho mejor porque usan una representación coherente de las reglas comerciales.
+
+4.  Reusabilidad: mantener las reglas en un solo lugar conduce a una mayor reutilización de las reglas de su negocio. Además, el código de procedimiento tradicional a menudo impone variaciones innecesarias de las reglas básicas que, por lo tanto, son más difíciles de reutilizar en otros contextos.
+
+También se debe tener en cuenta que, si la lógica del negocio es estática y el número de reglas de negocio es bastante simple y limitado, usar un motor de reglas puede resultar innecesario si la lógica de su negocio es estática.
+
+
