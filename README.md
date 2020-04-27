@@ -10,13 +10,10 @@
 
 ![](ReglasNegocio_html_670be77737dc3351.png)
 
-\
-
 | **Nombre: Angee Paola Ballesteros Maldonado** | **Código: 20201099027** |
 | --- | --- |
 | **Nombre: Luigi Santiago Fajardo Toloza** | **Código:** 20201099029 |
 | **Nombre: Jeisson Jair Ariza Pulido** | **Código:** 20201099026 |
-\
 
 **Diseño de un aplicativo para notas de una asignatura basado en reglas de negocio con Prolog**
 
@@ -33,13 +30,13 @@ utilizan dos listados, el primero contiene las fallas de cada estudiante durante
 
 ![](ReglasNegocio_html_f15b188ad672e5cb.png)
 
-**Figura [1]{style="background: #c0c0c0"}: Datos que ingresan al sistema de reglas.**
+**Figura [1]: Datos que ingresan al sistema de reglas.**
 
 El siguiente paso consiste en crear los vectores que permiten consolidar los valores promedio de las asistencias y las notas obtenidas por los estudiantes del curso.
 
 ![](ReglasNegocio_html_893c33eb9cb3997f.png)
 
-**Figura [2]{style="background: #c0c0c0"}: Creación de vectores para los cálculos de porcentajes y promedios.**
+**Figura [2]: Creación de vectores para los cálculos de porcentajes y promedios.**
 
 Ahora se procede a crear la primera regla que permite clasificar la asistencia, para dicha tarea se tienen en cuenta las siguientes reglas:
 
@@ -55,7 +52,7 @@ Luego de crear las reglas para la asistencia, procedemos a clasificar a los estu
 
 ![](ReglasNegocio_html_3680b356dee9a904.png)
 
-**Figura [3]{style="background: #c0c0c0"}: Reglas de asistencia.**
+**Figura [3]: Reglas de asistencia.**
 
 Posteriormente se crean las reglas para clasificar a los estudiantes dependiendo de la calificación obtenida en el semestre, dichas reglas son las siguientes.
 
@@ -71,28 +68,21 @@ Ahora se procede a crear la clasificación de los estudiantes basados en la regl
 
 ![](ReglasNegocio_html_f24cdf3b17c57c3a.png)
 
-**Figura [4]{style="background: #c0c0c0"}: Reglas de notas.**
+**Figura [4]: Reglas de notas.**
 
 Ahora se procede a crear las reglas basadas en la nota obtenida y las fallas de cada estudiante, para dicho calculo de la nota definitiva se combinan las reglas definidas en los procesos anteriormente mostrados.
 
 ![](ReglasNegocio_html_7e13a8176d097a52.png){width="450" height="245"}
 
-[**Figura [5]{style="background: #c0c0c0"}: Reglas de nota
-definitiva.**]{style="font-style: normal"}
+**Figura [5]: Reglas de nota definitiva.**
 
-[Luego de crear las reglas del aplicativo se procede a crear el
-aplicativo que va a implementar dichas reglas, el código es el
-siguiente:]
+Luego de crear las reglas del aplicativo se procede a crear el aplicativo que va a implementar dichas reglas, el código es el siguiente:
 
-![](ReglasNegocio_html_6651eb36a1da8700.png){width="467" height="253"}
+![](ReglasNegocio_html_6651eb36a1da8700.png)
 
-![](ReglasNegocio_html_397a824d109a770.png){width="467" height="267"}
+![](ReglasNegocio_html_397a824d109a770.png)
 
-![](ReglasNegocio_html_3c02a64d55ecace9.png){width="467" height="99"}
+![](ReglasNegocio_html_3c02a64d55ecace9.png)
 
-![](ReglasNegocio_html_d217850db33698b.png){width="476" height="265"}
-![](ReglasNegocio_html_98f94ea8602185bb.png){width="478" height="234"}
-
-\
-
-\
+![](ReglasNegocio_html_d217850db33698b.png)
+![](ReglasNegocio_html_98f94ea8602185bb.png)
